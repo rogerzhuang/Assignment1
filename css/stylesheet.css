@@ -1,0 +1,18 @@
+
+
+
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 80px 4fr 120px;
+}
+
+.item-b {
+    grid-column: 1 / 2;
+    grid-row: 2 / span 2;
+}
+
+body {
+    margin:0;
+}
