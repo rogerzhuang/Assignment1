@@ -107,6 +107,10 @@ textarea {
     background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
 }
 
+.hide {
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
     .grid-container {
         grid-template-columns: 100vw;
