@@ -3,6 +3,7 @@ buttonB = document.querySelector(".button-b");
 buttonC = document.querySelector(".button-c");
 buttonD = document.querySelector(".button-d");
 textArea = document.querySelector("textarea");
+titleList = document.querySelector(".item-b");
 classList1 = [".item-a", ".item-b", "textarea", ".button-a", ".button-b", ".button-c", ".button-d"];
 classList2 = ["textarea", ".button-c", ".button-d"];
 notesArray = [{title:"note one", body:"this is my first note"}, {title:"note two", body:"this is my second note"}];
@@ -48,3 +49,10 @@ buttonC.addEventListener("click", () => {
     }
 })
 
+titleList.addEventListener("click", (ev) => {
+    for (let item of notesArray) {
+        if (item.title === ev.target.innerText) {
+            textArea.value = item.body;
+        }
+    }
+})
