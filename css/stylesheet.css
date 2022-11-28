@@ -51,6 +51,11 @@ body {
     justify-content: center;
 }
 
+ul {
+    margin: 0;
+    padding: 1rem 0 1rem 2.5rem;
+}
+
 li {
     padding: rem 0.5rem rem;
     margin: 0 1rem 0 0;
@@ -96,6 +101,10 @@ textarea {
     margin: 0.8rem 1rem 0.5rem;
     background-color: #f9f3ec;
     resize: none;
+}
+
+.darkBGColor {
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
 }
 
 @media screen and (max-width: 600px) {
