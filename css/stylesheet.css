@@ -15,6 +15,8 @@ body {
 .item-b {
     grid-column: 1 / 2;
     grid-row: 2 / span 2;
+    overflow:scroll;
+    overflow-x:hidden;
 }
 
 .item-b > * {
@@ -30,25 +32,30 @@ body {
     text-align: center;
 }
 
-.flex-container-1 {
+.flex-container-navMenus {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
 }
 
-.flex-container-2 {
+.flex-container-newNoteDarkThemeButtons {
     display: flex;
     justify-content: space-between;
 }
 
-.flex-container-3 {
+.flex-container-saveCancelButtons {
     display: flex;
     justify-content: flex-end;
 }
 
-.flex-container-4 {
+.flex-container-externalLinks {
     display: flex;
     justify-content: center;
+}
+
+ul {
+    margin: 0;
+    padding: 1rem 0 1rem 2.5rem;
 }
 
 li {
@@ -96,6 +103,14 @@ textarea {
     margin: 0.8rem 1rem 0.5rem;
     background-color: #f9f3ec;
     resize: none;
+}
+
+.darkBGColor {
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+}
+
+.hide {
+    display: none;
 }
 
 @media screen and (max-width: 600px) {
