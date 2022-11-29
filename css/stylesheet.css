@@ -32,23 +32,23 @@ body {
     text-align: center;
 }
 
-.flex-container-1 {
+.flex-container-navMenus {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
 }
 
-.flex-container-2 {
+.flex-container-newNoteDarkThemeButtons {
     display: flex;
     justify-content: space-between;
 }
 
-.flex-container-3 {
+.flex-container-saveCancelButtons {
     display: flex;
     justify-content: flex-end;
 }
 
-.flex-container-4 {
+.flex-container-externalLinks {
     display: flex;
     justify-content: center;
 }
